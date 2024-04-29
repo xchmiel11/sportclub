@@ -11,8 +11,8 @@ export default function Footer() {
       </FooterItem>
       <FooterItem>
         Designed & created with <LoveIcon /> by{" "}
-        <FooterLink href="https://chmieldev.pl" target="_BLANK">
-          chmieldev.pl
+        <FooterLink href="https://github.com/xchmiel11" target="_BLANK">
+          xchmiel11
         </FooterLink>
       </FooterItem>
     </Wrapper>
