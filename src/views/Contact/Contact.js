@@ -20,6 +20,15 @@ export default function Paving() {
     return errors.includes(val) ? true : false;
   };
 
+  const clearForm = () => {
+    setName("");
+    setEmail("");
+    setPhone("");
+    setTopic("");
+    setMsg("");
+    setAccepted(false);
+  };
+
   const sendMsg = () => {
     let err = [];
 
@@ -48,6 +57,8 @@ export default function Paving() {
         showConfirmButton: false,
         timer: 3000,
       });
+
+      clearForm();
     } else {
       Swal.fire({
         icon: "error",
